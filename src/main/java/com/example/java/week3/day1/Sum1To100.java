@@ -1,0 +1,15 @@
+package com.example.java.week3.day1;
+
+import java.util.Scanner;
+
+public class Sum1To100 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int inputVal = sc.nextInt();
+        int sum = 0;
+        for(int i = 1; i <= inputVal; i++) {
+            sum += i;
+            System.out.println(sum);
+        }
+    }
+}
